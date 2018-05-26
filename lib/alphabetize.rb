@@ -10,7 +10,7 @@ def alphabetize(arr)
     temp = []
     word.each_char do |letter|
       temp << ESPERANTO_ALPHABET.index(letter)
-      binding.pry
+      
     end
     binding.pry
     temp
