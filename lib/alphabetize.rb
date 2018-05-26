@@ -6,9 +6,9 @@ def alphabetize(arr)
   # code here
   result = arr
   
-  result.sort_by! do |word|
+  result.sort_by! do |str|
     pos_index = []
-    word.each_char do |letter|
+    str.each_char do |letter|
       pos_index << ESPERANTO_ALPHABET.index(letter)
       
     end
