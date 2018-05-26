@@ -5,9 +5,9 @@ ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 def alphabetize(arr)
   # code here
   result = arr
-  
+  pos_index = []
   result.sort_by! do |str|
-    pos_index = []
+    #pos_index = []
     str.each_char do |letter|
       pos_index << ESPERANTO_ALPHABET.index(letter)
       
