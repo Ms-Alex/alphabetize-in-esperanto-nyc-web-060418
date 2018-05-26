@@ -15,8 +15,6 @@ def alphabetize(arr)
     
     pos_index
   end
-  binding.pry
   
   result
-  binding.pry
 end
