@@ -13,9 +13,6 @@ def alphabetize(arr)
     end
     position
   end
-    
-    
-  end
   
   result
 end
