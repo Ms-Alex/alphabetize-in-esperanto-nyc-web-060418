@@ -15,6 +15,6 @@ def alphabetize(arr)
     binding.pry
     temp
   end
-  
+  binding.pry
   result
 end
