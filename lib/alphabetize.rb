@@ -12,6 +12,7 @@ def alphabetize(arr)
       temp << ESPERANTO_ALPHABET.index(letter)
       binding.pry
     end
+    binding.pry
     temp
   end
   
