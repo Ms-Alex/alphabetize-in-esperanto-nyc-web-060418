@@ -6,7 +6,7 @@ def alphabetize(arr)
   # code here
   result = []
   
-  arr.sort_by |word|
+  arr.sort_by do |word|
     
   end
   
