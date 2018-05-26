@@ -14,6 +14,7 @@ def alphabetize(arr)
     end
     
     str_letter_index
+    binding.pry
   end
   
   result
