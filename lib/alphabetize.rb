@@ -9,7 +9,7 @@ def alphabetize(arr)
   result.sort_by! do |word|
     temp = []
     word.each_char do |letter|
-      result << ESPERANTO_ALPHABET.index(letter)
+      remp << ESPERANTO_ALPHABET.index(letter)
     end
     temp
   end
