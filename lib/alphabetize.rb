@@ -11,7 +11,6 @@ def alphabetize(arr)
     
     str.each_char do |letter|
       str_letter_index << ESPERANTO_ALPHABET.index(letter)
-      
     end
     
     str_letter_index
