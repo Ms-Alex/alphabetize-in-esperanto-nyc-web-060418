@@ -7,11 +7,11 @@ def alphabetize(arr)
   result = arr
   
   result.sort_by! do |word|
-    position = []
+    #position = []
     word.each_char do |letter|
-      position << ESPERANTO_ALPHABET.index(letter)
+      result << ESPERANTO_ALPHABET.index(letter)
     end
-    position
+    #position
   end
   
   result
