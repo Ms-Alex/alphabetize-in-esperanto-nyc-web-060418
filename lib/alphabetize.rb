@@ -17,4 +17,5 @@ def alphabetize(arr)
   end
   
   result
+  binding.pry
 end
